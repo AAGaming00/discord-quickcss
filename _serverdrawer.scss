@@ -1,0 +1,103 @@
+.guilds-1SWlCJ {
+    counter-reset: guilds;    
+    left: -75px;
+    overflow: visible;
+    z-index: 100000000000000000;
+    transition: left 1s ease-in-out;
+    //background-color: var(--background-primary);
+    background-color: rgba(0, 0, 0, 0.5);
+    &::after {
+        content: counter(guilds);
+        overflow: visible;
+        opacity: counter(guilds);
+        pointer-events: none;
+        background-color: rgb(240, 71, 71);
+        font-size: smaller;
+        text-align: center;
+        color: white;
+        height: 12px;
+        position: absolute;
+        width: 12px;
+        border-radius: 16px;
+        left: 75px;
+        top: 0px;
+        margin-left: 10px;
+        margin-top: 12px;
+        z-index: 100000;
+        cursor: pointer;
+    }
+
+
+    &::before {
+        content: '';
+        -webkit-mask: url('https://fonts.gstatic.com/s/i/materialicons/home/v7/24px.svg');
+        mask: url('https://fonts.gstatic.com/s/i/materialicons/home/v7/24px.svg');
+        overflow: visible;
+        background-color: var(--interactive-normal);
+        min-height: 24px;
+        position: absolute;
+        width: 24px;
+        left: 75px;
+        top: 0px;
+        margin-left: 10px;
+        margin-top: 12px;
+        z-index: 100000;
+        cursor: pointer;
+    }
+
+    & .unreadMentionsIndicatorTop-gA6RCh::after {
+        content: '';
+        position: absolute;
+        width: 200vw;
+        height: 100vh;
+        left: var(--server-sidebar-click, -200vw);
+        top: 0px;
+        pointer-events: all;
+        z-index: 100000;
+    }
+
+    & .unreadMentionsIndicatorBottom-BXS58x::after {
+        content: '';
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.5);
+        width: 200vw;
+        height: 200vh;
+        left: var(--server-sidebar-click, -200vw);
+        top: -100vh;
+        pointer-events: none;
+        z-index: 100000;
+    }
+
+    &:active .unreadMentionsIndicatorTop-gA6RCh, &:hover .unreadMentionsIndicatorTop-gA6RCh, &:active .unreadMentionsIndicatorBottom-BXS58x, &:hover .unreadMentionsIndicatorBottom-BXS58x {
+        --server-sidebar-click: 72px;
+    }
+
+    .unreadMentionsIndicatorTop-gA6RCh:active {
+        --server-sidebar-click: -200vw;
+    }
+
+    .unreadMentionsIndicatorTop-gA6RCh, .unreadMentionsIndicatorBottom-BXS58x {
+        overflow: visible;
+    }
+
+    &:active, &:hover {
+        left: 0px;
+    }
+
+}
+
+.base-3dtUhz {
+    left: 0px;
+}
+
+.sidebar-2K8pFh > :first-child > :first-child {
+    margin-left: 24px;
+}
+
+.searchBar-6Kv8R2 {
+    padding-left: 20px;
+}
+
+.scroller-2TZvBN > div:not([data-ref-id='guildsnav']) .lowerBadge-29hYVK {
+    counter-increment: guilds 1;
+}

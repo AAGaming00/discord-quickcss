@@ -1,0 +1,8 @@
+{
+  "name": "quikcss",
+  "description": "Theme Description",
+  "author": "Theme Author",
+  "license": "Theme License",
+  "theme": "quikcss.scss",
+  "version": "0.0.1"
+}

@@ -1,0 +1,49 @@
+// make emoji better
+
+
+/**
+ * Snippet from #css-snippets applied the Oct 3, 2020 at 10:38:09 AM
+ * Created by MulverineX#0001 (178551656714076161)
+ * Snippet ID: 761818920905998356
+ */
+ img[src="/assets/9a43e631d506ae4818ecefc825dc02ad.svg"],
+ img[src="/assets/13c8662cff8e029799a35878b56e23eb.svg"] { 
+   filter: invert(1); 
+ }
+ /** 761818920905998356 */
+
+
+// By botato#6883
+
+/* Better Twemoji */
+/** Eyes **/
+img[src="/assets/4c5a77a89716352686f590a6f014770c.svg"] {
+    content: url("/assets/ccf4c733929efd9762ab02cd65175377.svg");
+  }
+  /*** In Emoji Picker ***/
+  .emojiSpriteImage-TcJnG8[style*="background-position\:\ -1248px\ -64px\;"] {
+    background: unset !important;
+    background-image: url("/assets/ccf4c733929efd9762ab02cd65175377.svg") !important;
+  }
+  
+  /** Gun **/
+  img[src="/assets/fd0dd759c1ed1e0a044fa6882e95fd02.svg"] {
+    content: url("/assets/3071dbc60204c84ca0cf423b8b08a204.svg");
+  }
+  /*** In Emoji Picker ***/
+  .emojiSpriteImage-TcJnG8[style*="background-position\:\ -608px\ -576px\;"] {
+    background: unset !important;
+    background-image: url("/assets/3071dbc60204c84ca0cf423b8b08a204.svg") !important;
+  }
+  
+  /** Ok Hand **/
+  img[src="/assets/464b4c2745e1dda6a86028d09bb8bbec.svg"] {
+    content: url("/assets/b6f700d4bc253abdb5ad576917b756d8.svg");
+  }
+  /*** In Emoji Picker ***/
+  .emojiSpriteImage-TcJnG8[style*="background-position\:\ -128px\ -32px\;"] {
+    background: unset !important;
+    background-image: url("/assets/b6f700d4bc253abdb5ad576917b756d8.svg") !important;
+  }
+  
+  

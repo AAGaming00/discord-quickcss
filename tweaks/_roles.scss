@@ -1,0 +1,31 @@
+
+
+/**
+ * Snippet from #css-snippets applied the Sep 15, 2020 at 9:04:56 AM
+ * Created by Bowser65#0001 (94762492923748352)
+ * Snippet ID: 755404583601176636
+ */
+/* Better roles */
+.role-2irmRk {
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    border: none;
+    padding: 5px;
+  }
+  .roleCircle-3xAZ1j::before {
+    content: '';
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height: 100%;
+    background: inherit;
+    opacity: .2;
+    z-index: -1;
+    pointer-events: none;
+  }
+  .footer-1fjuF6 {
+    border-top: none;
+  }
+  /** 755404583601176636 */

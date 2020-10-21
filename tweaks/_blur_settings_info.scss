@@ -1,0 +1,11 @@
+// By ezist
+
+.profile-1eT9hT + .fieldList-21DyL8 > .field-1HUseB:not(:first-child) {
+    .colorHeaderPrimary-26Jzh- {
+        filter: blur(5px);
+        transition: filter 0.5s;
+    }
+    :hover .colorHeaderPrimary-26Jzh- {
+        filter: blur(0px);
+    }
+}

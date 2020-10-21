@@ -1,0 +1,22 @@
+
+
+/**
+ * Snippet from #css-snippets applied the Sep 14, 2020 at 8:22:03 PM
+ * Created by Tropical#7643 (254362351170617345)
+ * Snippet ID: 755167218009899010
+ */
+/* Fly in Voice Chat buttons */
+
+.container-3baos1 .noWrap-3jynv6 {
+    width: 0px;
+    opacity: 0;
+    pointer-events: none;
+    transition: all .5s ease-in-out;
+}
+
+.container-3baos1:hover .noWrap-3jynv6 {
+    width: 100px;
+    opacity: 1;
+    pointer-events: all;
+}
+/** 755167218009899010 */

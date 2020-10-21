@@ -1,0 +1,39 @@
+
+/**
+ * Snippet from #css-snippets applied the Oct 16, 2020 at 8:20:36 AM
+ * Created by Tropical#4355 (254362351170617345)
+ * Snippet ID: 766438640313958470
+ */
+ .wrapper-2a6GCs .assetWrapper-3GNt0z[style] {
+    height:auto !important;
+    width:auto !important;
+}
+
+.wrapper-2a6GCs .assetWrapper-3GNt0z[style]:active {
+    height:160px !important;
+    width:160px !important;
+}
+
+.wrapper-2a6GCs .assetWrapper-3GNt0z[style]:after {
+    content:'1 blocked sticker - Show Sticker';
+    color:var(--text-link);
+}
+
+.wrapper-2a6GCs .assetWrapper-3GNt0z[style]:active:after {
+    content:none;
+}
+
+.wrapper-2a6GCs .assetWrapper-3GNt0z[style]:hover:after {
+    text-decoration:underline;
+}
+
+.wrapper-2a6GCs .assetWrapper-3GNt0z[style] .lottieCanvas-1W7L-f,
+.wrapper-2a6GCs .assetWrapper-3GNt0z[style] .pngImage-33yLRP {
+    display:none;
+}
+
+.wrapper-2a6GCs .assetWrapper-3GNt0z[style]:active .lottieCanvas-1W7L-f,
+.wrapper-2a6GCs .assetWrapper-3GNt0z[style]:active .pngImage-33yLRP {
+    display:block;
+}
+/** 766438640313958470 */

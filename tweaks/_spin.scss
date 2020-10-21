@@ -1,0 +1,49 @@
+
+#app-mount .container-3baos1 .wrapper-3t9DeA .mask-1l8v16 > rect[x="22"] {
+    animation: dash 2s linear infinite, rotate 2.3s linear infinite;
+    transform-origin: 40% 50%;
+}
+@keyframes rotate {
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+@keyframes dash {
+    0% {
+      stroke-dasharray: 1, 200;
+      stroke-dashoffset: 0;
+    }
+    50% {
+      stroke-dasharray: 89, 200;
+      stroke-dashoffset: -35px;
+    }
+    100% {
+      stroke-dasharray: 89, 200;
+      stroke-dashoffset: -124px;
+    }
+  }
+
+  /**
+ * Snippet from #css-snippets applied the Sep 21, 2020 at 6:39:56 PM
+ * Created by lucii#6018 (307316554805018624)
+ * Snippet ID: 757732631386259457
+ */
+/* User Settings Spin */
+ .button-14-BFJ[aria-label="User Settings"]:hover {
+  animation: rotate 0.5s infinite;
+  -webkit-transition-delay: now;
+  -webkit-animation-timing-function: linear;
+  background-color: transparent;
+  
+}
+
+@keyframes rotate {
+  from {
+      transform: rotate(0deg);
+  }
+  to {
+      transform: rotate(360deg);
+  }
+
+}
+/** 757732631386259457 */

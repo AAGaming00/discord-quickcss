@@ -3,7 +3,7 @@
     left: -75px;
     overflow: visible;
     z-index: 100000000000000000;
-    transition: left 1s ease-in-out;
+    transition: transform 1s ease-in-out;
     //background-color: var(--background-primary);
     background-color: rgba(0, 0, 0, 0.5);
     &::after {
@@ -65,7 +65,7 @@
         left: var(--server-sidebar-click, -200vw);
         top: -100vh;
         pointer-events: none;
-        z-index: 100000;
+        z-index: -100000;
     }
 
     &:active .unreadMentionsIndicatorTop-gA6RCh, &:hover .unreadMentionsIndicatorTop-gA6RCh, &:active .unreadMentionsIndicatorBottom-BXS58x, &:hover .unreadMentionsIndicatorBottom-BXS58x {
@@ -81,7 +81,8 @@
     }
 
     &:active, &:hover {
-        left: 0px;
+        //left: 0px;
+        transform: translateX(75px);
     }
 
 }

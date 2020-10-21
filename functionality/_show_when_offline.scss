@@ -1,0 +1,25 @@
+/**
+ * Snippet from #css-snippets applied the Oct 20, 2020 at 11:09:45 AM
+ * Created by Bowser65#0001 (94762492923748352)
+ * Snippet ID: 767078348731056158
+ */
+/* Show Discord, even when you're offline */
+.container-16j22k {
+    background: transparent;
+    pointer-events: none;
+  }
+  .container-16j22k * {
+    display: none;
+  }
+  .container-16j22k::before {
+    content: 'You\'ve gone offline';
+    display: block;
+    bottom: 24px;
+    right: 24px;
+    position: absolute;
+    padding: 8px 16px;
+    background-color: #f04747;
+    border-radius: 4px;
+    color: #fff;
+  }
+  /** 767078348731056158 */

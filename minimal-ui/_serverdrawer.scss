@@ -4,8 +4,7 @@
     overflow: visible;
     z-index: 100000000000000000;
     transition: transform 1s cubic-bezier(0.34, 1.56, 0.64, 1);
-    //background-color: var(--background-primary);
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: transparent;
     &::after {
         content: counter(guilds);
         overflow: visible;
@@ -80,7 +79,7 @@
         overflow: visible;
     }
 
-    &:active, &:hover {
+    &, &:active, &:hover {
         //left: 0px;
         transform: translateX(75px);
     }
@@ -99,6 +98,10 @@
     padding-left: 20px;
 }
 
-.scroller-2TZvBN > div:not([data-ref-id='guildsnav']) .lowerBadge-29hYVK {
-    counter-increment: guilds 1;
+.scroller-2TZvBN {
+        outline-width: 0;
+        background-color: rgba(0, 0, 0, 0.5);
+    &> div:not([class]) .lowerBadge-29hYVK {
+        counter-increment: guilds 1;
+    }
 }

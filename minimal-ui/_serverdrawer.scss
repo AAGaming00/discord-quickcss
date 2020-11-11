@@ -79,7 +79,7 @@
         overflow: visible;
     }
 
-    &, &:active, &:hover {
+    &:active, &:hover {
         //left: 0px;
         transform: translateX(75px);
     }

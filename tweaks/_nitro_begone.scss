@@ -1,9 +1,22 @@
-[href="/store"],
-.buttons-3JBrkn > .button-38aScr.noFocus-2C7BQj,
+[href="/store"], //store
+.buttons-3JBrkn > .button-38aScr, //gifting
 .wrapper-3nSjSv,
 .giftAction-yhDLaW,
-.premiumPromo-fVlLu-,
-[data-item-id="DiscordNitro"],
-[data-item-id="LibraryInventory"] {
- display: none !important;
+.premiumPromo-fVlLu-, //emoji picker
+.guildIconContainer-2FW_iA, //server boosting
+.premiumIcon-1rDbWQ,
+#guild-header-popout-premium-subscribe,
+#guild-header-popout .separator-2I32lJ,
+.emojiSection-3Fb9ix .shinyButton-3uFlM-, //emoji click popout,
+.uploadDropModal-2kTwbc .premiumPromo-3oM7cT, //upload file modal
+[aria-controls="Discord Nitro-tab"], //settings
+[aria-controls="Library Inventory-tab"],
+[aria-controls="Nitro Server Boost-tab"],
+[aria-controls="Connections-tab"] + .separator-gCa7yv,
+[aria-controls="Connections-tab"] + .separator-gCa7yv + .header-2RyJ0Y {
+    display: none !important;
+}
+
+#guild-header-popout .separator-2I32lJ ~ .separator-2I32lJ {
+    display: block !important;
 }

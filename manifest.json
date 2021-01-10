@@ -1,0 +1,9 @@
+{
+  "name": "quickcss",
+  "description": "My quick CSS",
+  "author": "AAGaming#9395",
+  "license": "CC0-1.0",
+  "theme": "quickcss.scss",
+  "devToolsTheme": "devtools.scss",
+  "version": "1.0.0"
+}

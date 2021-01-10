@@ -1,0 +1,70 @@
+.contents-2mQqc9 {
+  code.inline::before{
+    content: "`";
+    font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
+    text-rendering: optimizeLegibility;
+    background: transparent;
+    color: grey;
+  }
+  code.inline::after{
+    content: "`";
+    font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
+    text-rendering: optimizeLegibility;
+    background: transparent;
+    color: grey;
+  }
+  .blockquoteContainer-U5TVEi::before{
+    content: "> ";
+    color: grey;
+    font-style: normal;
+    font-weight: normal;
+  }
+  strong::before{
+    content: "**";
+    color: grey;
+    font-style: normal;
+    font-weight: normal;
+  }
+  strong::after{
+    content: "**";
+    color: grey;
+    font-style: normal;
+    font-weight: normal;
+  }
+  em::before{
+    content: "*";
+    color: grey;
+    font-style: normal;
+    font-weight: normal;
+  }
+  em::after{
+    content: "*";
+    color: grey;
+    font-style: normal;
+    font-weight: normal;
+  }
+  u::before{
+    content: "__";
+    color: grey;
+    font-style: normal;
+    font-weight: normal;
+  }
+  u::after{
+    content: "__";
+    color: grey;
+    font-style: normal;
+    font-weight: normal;
+  }
+  pre::before{
+    content: "`‌``";
+    color: grey;
+    font-style: normal;
+    font-weight: normal;
+  }
+  pre::after{
+    content: "`‌``";
+    color: grey;
+    font-style: normal;
+    font-weight: normal;
+  }
+}
